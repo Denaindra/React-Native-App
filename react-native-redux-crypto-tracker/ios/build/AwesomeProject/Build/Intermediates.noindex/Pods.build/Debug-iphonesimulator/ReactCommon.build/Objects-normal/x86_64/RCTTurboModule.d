@@ -1,0 +1,45 @@
+dependencies: \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModule.mm \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Target\ Support\ Files/ReactCommon/ReactCommon-prefix.pch \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModule.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTModuleMethod.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTBridgeMethod.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTNullability.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/node_modules/react-native/ReactCommon/jscallinvoker/ReactCommon/JSCallInvoker.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/node_modules/react-native/ReactCommon/turbomodule/core/TurboModule.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-jsi/jsi/jsi.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-jsi/jsi/jsi-inl.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-cxxreact/cxxreact/MessageQueueThread.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTCxxConvert.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Headers/Public/React-Core/React/RCTManagedPointer.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/node_modules/react-native/ReactCommon/turbomodule/core/LongLivedObject.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/node_modules/react-native/ReactCommon/turbomodule/core/TurboModuleUtils.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Folly/folly/Optional.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Folly/folly/Portability.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Folly/folly/CPortability.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Folly/folly/Traits.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Folly/folly/Utility.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Folly/folly/lang/Exception.h \
+  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Folly/folly/CppAttributes.h
