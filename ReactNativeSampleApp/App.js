@@ -34,27 +34,42 @@ loginButtonPress = () =>{
   render(){
     return(
       <View style={style.container}>
-        <View >
-            <Text style={style.UserFeild}>{this.state.userName}</Text>
-        </View>
-        <Text>User name</Text>
-          <TextInput style={style.textInput} 
-          placeholder='username'  
-           
-          onChangeText = {this.handleEmail}
-          />
-          <Text>Password</Text>
-          <TextInput style={style.textInput}  
-          secureTextEntry='true'
-          onChangeText = {this.handlePassword}
-          placeholder='password'/>
-        <TouchableOpacity
-          style={style.loginScreenButton}
-          onPress={this.loginButtonPress}
-          underlayColor='#fff'>
-          <Text style={style.loginText}>Login</Text>
-          </TouchableOpacity>
-      
+          <View style={style.result}>
+            <Text style={style.resultText}>12dsdsds34</Text>
+          </View>
+           <View style={style.calculation}>
+           <Text style={style.calculationText}>1111</Text>
+           </View>
+           <View style={style.buttons}>
+              <View style={style.numbers}>
+                <View style={style.row}>
+                   <Button title="0" />
+                   <Button title="0" />
+                   <Button title="0" />
+                </View>
+                <View style={style.row}>
+                   <Button title="1" />
+                   <Button title="1" />
+                   <Button title="1" />
+                </View>
+                <View style={style.row}>
+                   <Button title="2" />
+                   <Button title="2" />
+                   <Button title="2" />
+                </View>
+                <View style={style.row}>
+                   <Button title="3" />
+                   <Button title="3" />
+                   <Button title="3" />
+                </View>
+              </View>
+              <View style={style.operations}>
+                 <Button title="+"/>
+                 <Button title="+"/>
+                 <Button title="+"/>
+                 <Button title="+"/>
+              </View>
+           </View>
       </View>
     )
   }
@@ -63,45 +78,50 @@ loginButtonPress = () =>{
 const style = StyleSheet.create({
   container: {
     flex:1,
-
+    justifyContent:'center'
+  },
+  resultText:{
+    fontSize:50,
+    color:'white',
+  },
+  calculationText:{
+   fontSize:35,
+  },
+  row:{
+      flexDirection:'row',
+      flex:1,
+      justifyContent:'space-around',
+      alignItems:'stretch'
+  },
+  result:{
+    flex:2,
+    alignItems:'flex-end',
     justifyContent:'center',
-    marginRight:10,
-    marginLeft:10,
+    backgroundColor:'red'
   },
-  UserFeild:{
-   fontSize:30,
-   textAlign:'center',
-   marginTop:10,
-   fontWeight:'bold',
+  calculation:{
+    flex:1,
+    backgroundColor:'green',
+    alignItems:'flex-end',
+    justifyContent:'center',
+  },
+  buttons:{
+    flex:7,
+    flexDirection:'row',
+    backgroundColor:'purple',
 
   },
-  textInput:{
-    marginTop:20,
- 
-    borderColor:'red',
-     height:40,
-     fontSize:20,
-     borderWidth: 1 
+  numbers:{
+   flex:3,
+   backgroundColor:'yellow',
 
   },
-  text:{
-     fontSize:50,
-     fontWeight:'bold',
-  },
-  loginScreenButton:{
-
-    marginTop:10,
-    paddingTop:10,
-    paddingBottom:10,
-    backgroundColor:'#1E6738',
-    borderWidth: 1,
-    borderColor: '#fff'
-  },
-  loginText:{
-      color:'#fff',
-      textAlign:'center',
-      paddingLeft : 10,
-      paddingRight : 10
+  operations:{
+      flex:1,
+      backgroundColor:'black',
+      justifyContent:'space-around',
+      alignItems:'stretch'
   }
+
 });
 
