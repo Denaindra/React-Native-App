@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
-  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/ios/Pods/Target\ Support\ Files/React-jsinspector/React-jsinspector-prefix.pch \
-  /Users/mgdperera/Documents/RectNative/react-native-redux-crypto-tracker/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Target\ Support\ Files/React-jsinspector/React-jsinspector-prefix.pch \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h
