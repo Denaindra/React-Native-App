@@ -32,12 +32,13 @@ handlePassword = (text) => {
         <View >
             <Text style={style.UserFeild}>{this.state.userName}</Text>
         </View>
+        <Text>User name</Text>
           <TextInput style={style.textInput} 
           placeholder='username'  
            
           onChangeText = {this.handleEmail}
           />
-
+          <Text>Password</Text>
           <TextInput style={style.textInput}  
           secureTextEntry='true'
           onChangeText = {this.handlePassword}
@@ -53,20 +54,21 @@ handlePassword = (text) => {
 const style = StyleSheet.create({
   container: {
     flex:1,
-    backgroundColor:'green'
-  
+
+    justifyContent:'center',
+    marginRight:10,
+    marginLeft:10,
   },
   UserFeild:{
    fontSize:30,
    textAlign:'center',
-   marginTop:20,
+   marginTop:10,
    fontWeight:'bold',
 
   },
   textInput:{
-    marginTop:40,
-    marginRight:10,
-    marginLeft:10,
+    marginTop:20,
+ 
     borderColor:'red',
      height:40,
      fontSize:20,
