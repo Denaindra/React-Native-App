@@ -11,9 +11,17 @@ export default class App extends Component{
   render(){
     return(
       <View style={style.container}>
-          <Text style={style.welcome}>
-            Hellow worldd
-          </Text>
+          <View style={style.flex1}>
+           
+          </View>
+          <View style={style.flex2}>
+          <View style={style.flex2_1}>
+           
+           </View>
+           <View style={style.flex2_2}>
+           
+           </View>
+           </View>
       </View>
     )
   }
@@ -22,22 +30,27 @@ export default class App extends Component{
 const style = StyleSheet.create({
   container: {
     flex:1,
-    justifyContent:'center',
-    alignItems:'center',
-    backgroundColor:'#F5fcff'
+    backgroundColor:'yellow'
   
-  },flex1:{
-     flex:1
-  },flex2:{
-    flex:1
-
-  },flex2_1:{
-    flex:1
-
-  },flex2_2:{
-    flex:1
-
-  },text:{
+  },
+  flex1:{
+     flex:1,
+     backgroundColor:'green'
+  },
+  flex2:{
+    flex:1,
+    flexDirection:'row',
+    backgroundColor:'purple'
+  },
+  flex2_1:{
+    flex:1,
+    backgroundColor:'#C0C0C0'
+  },
+  flex2_2:{
+    flex:1,
+    backgroundColor:'yellow'
+  },
+  text:{
      
   }
 });
