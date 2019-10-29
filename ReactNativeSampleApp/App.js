@@ -4,24 +4,47 @@
  import{
    StyleSheet,
    Text,
+   Label,
+   TextInput,
    View
  }from 'react-native'
 
 export default class App extends Component{
+
+  state = {
+    userName: '',
+    password: ''
+ }
+
+ handleEmail = (text) => {
+  this.setState({ userName: text })
+  console.log(text)
+
+}
+handlePassword = (text) => {
+  this.setState({ password: text })
+  console.log(text)
+}
+
   render(){
     return(
       <View style={style.container}>
-          <View style={style.flex1}>
+        <View >
+            <Text style={style.UserFeild}>{this.state.userName}</Text>
+        </View>
+          <TextInput style={style.textInput} 
+          placeholder='username'  
            
-          </View>
-          <View style={style.flex2}>
-          <View style={style.flex2_1}>
-           
-           </View>
-           <View style={style.flex2_2}>
-           
-           </View>
-           </View>
+          onChangeText = {this.handleEmail}
+          />
+
+          <TextInput style={style.textInput}  
+          secureTextEntry='true'
+          onChangeText = {this.handlePassword}
+          placeholder='password'
+      
+          />
+          
       </View>
     )
   }
@@ -30,28 +53,29 @@ export default class App extends Component{
 const style = StyleSheet.create({
   container: {
     flex:1,
-    backgroundColor:'yellow'
+    backgroundColor:'green'
   
   },
-  flex1:{
-     flex:1,
-     backgroundColor:'green'
+  UserFeild:{
+   fontSize:30,
+   textAlign:'center',
+   marginTop:20,
+   fontWeight:'bold',
+
   },
-  flex2:{
-    flex:1,
-    flexDirection:'row',
-    backgroundColor:'purple'
-  },
-  flex2_1:{
-    flex:1,
-    backgroundColor:'#C0C0C0'
-  },
-  flex2_2:{
-    flex:1,
-    backgroundColor:'yellow'
+  textInput:{
+    marginTop:40,
+    marginRight:10,
+    marginLeft:10,
+    borderColor:'red',
+     height:40,
+     fontSize:20,
+     borderWidth: 1 
+
   },
   text:{
-     
+     fontSize:50,
+     fontWeight:'bold',
   }
 });
 
