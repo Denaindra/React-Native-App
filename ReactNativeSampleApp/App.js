@@ -14,6 +14,8 @@ export default class App extends Component{
 
 constructor(){
   super();
+  this.operations = ['del','+','-','*','/']
+
 }
 
   state = {
@@ -35,7 +37,6 @@ KeyPress = (text) => {
   this.setState({
     calResult: this.state.calResult + text
   })
-  console.log(text)
 }
 
   opertion(operation){
@@ -47,6 +48,19 @@ KeyPress = (text) => {
             this.setState({
               calResult:text.join('')
             })
+            break;
+            case '+':
+            case '-':
+            case '*':
+            case '/':
+
+                  const lastChar = this.state.calResult.split('').pop()
+                  if(this.operations.indexOf(lastChar)>0) return
+
+                  if(this.state.text == "") return
+                  this.setState({
+                    calResult: this.state.calResult + operation
+                    })
       }
   }
 
@@ -70,12 +84,13 @@ KeyPress = (text) => {
      rows.push(<View style={style.row}>{row}</View>)
    }
 
-let operations = ['del','+','-','*','/']
+let operations;
+
 let ops=[]
-for(let i=0;i<4;i++)
+for(let i=0;i<5;i++)
 {
-  ops.push(<TouchableOpacity onPress={() => this.opertion(operations[i])} style={style.btn}>
-    <Text style={style.btnText}>{operations[i]}</Text>
+  ops.push(<TouchableOpacity onPress={() => this.opertion(this.operations[i])} style={style.btn}>
+    <Text style={style.btnText}>{this.operations[i]}</Text>
   </TouchableOpacity>)
 }
     return(
