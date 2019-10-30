@@ -12,62 +12,86 @@
 
 export default class App extends Component{
 
+constructor(){
+  super();
+}
+
   state = {
-    userName: '',
-    password: ''
+    calResult: ''
  }
 
- handleEmail = (text) => {
-  this.setState({ userName: text })
-  console.log(text)
 
-}
-handlePassword = (text) => {
-  this.setState({ password: text })
-  console.log(text)
+PressEqualKey() {
+  const text = this.state.calResult
 }
 
-loginButtonPress = () =>{
-   console.log('apple')
+KeyPress = (text) => {
+
+  if(text == '=')
+  {
+     return this.PressEqualKey();
+  }
+
+  this.setState({
+    calResult: this.state.calResult + text
+  })
+  console.log(text)
 }
+
+  opertion(operation){
+      switch(operation)
+      {
+          case 'del':
+            let text =this.state.calResult.split('')
+            text.pop()
+            this.setState({
+              calResult:text.join('')
+            })
+      }
+  }
+
+
+
 
   render(){
+
+   let rows = []
+   let nums = [[1,2,3],[4,5,6],[7,8,9],['.',0,'=']]
+   
+   for(let i = 0;i<4;i++)
+   {
+     let row = []
+     for(let j =0; j<3;j++)
+     {
+       row.push(<TouchableOpacity onPress={() => this.KeyPress(nums[i][j])} style={style.btn}>
+         <Text style={style.btnText}>{nums[i][j]}</Text>
+       </TouchableOpacity>)
+     }
+     rows.push(<View style={style.row}>{row}</View>)
+   }
+
+let operations = ['del','+','-','*','/']
+let ops=[]
+for(let i=0;i<4;i++)
+{
+  ops.push(<TouchableOpacity onPress={() => this.opertion(operations[i])} style={style.btn}>
+    <Text style={style.btnText}>{operations[i]}</Text>
+  </TouchableOpacity>)
+}
     return(
       <View style={style.container}>
           <View style={style.result}>
-            <Text style={style.resultText}>12dsdsds34</Text>
+            <Text style={style.resultText}>{this.state.calResult}</Text>
           </View>
            <View style={style.calculation}>
            <Text style={style.calculationText}>1111</Text>
            </View>
            <View style={style.buttons}>
               <View style={style.numbers}>
-                <View style={style.row}>
-                   <Button title="0" />
-                   <Button title="0" />
-                   <Button title="0" />
-                </View>
-                <View style={style.row}>
-                   <Button title="1" />
-                   <Button title="1" />
-                   <Button title="1" />
-                </View>
-                <View style={style.row}>
-                   <Button title="2" />
-                   <Button title="2" />
-                   <Button title="2" />
-                </View>
-                <View style={style.row}>
-                   <Button title="3" />
-                   <Button title="3" />
-                   <Button title="3" />
-                </View>
+                {rows}
               </View>
               <View style={style.operations}>
-                 <Button title="+"/>
-                 <Button title="+"/>
-                 <Button title="+"/>
-                 <Button title="+"/>
+                 {ops}
               </View>
            </View>
       </View>
@@ -92,6 +116,17 @@ const style = StyleSheet.create({
       flex:1,
       justifyContent:'space-around',
       alignItems:'stretch'
+  },
+  btnText:{
+   fontSize:35
+  },
+  btn:{
+     flex:1,
+     alignItems:'center',
+     alignSelf:'stretch',
+     justifyContent:'center',
+     backgroundColor:'purple'
+
   },
   result:{
     flex:2,
