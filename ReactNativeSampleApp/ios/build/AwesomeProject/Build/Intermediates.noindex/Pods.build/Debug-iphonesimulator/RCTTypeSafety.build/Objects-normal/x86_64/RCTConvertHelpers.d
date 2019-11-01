@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.mm \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Target\ Support\ Files/RCTTypeSafety/RCTTypeSafety-prefix.pch \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyVector.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyIterator.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Folly/folly/Optional.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Folly/folly/Portability.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Folly/folly/CPortability.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Folly/folly/Traits.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Folly/folly/Utility.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Folly/folly/lang/Exception.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Folly/folly/CppAttributes.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Users/mgdperera/Documents/NotSync.nosync/React-Native-App/ReactNativeSampleApp/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h
