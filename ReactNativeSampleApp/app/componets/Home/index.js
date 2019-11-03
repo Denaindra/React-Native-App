@@ -34,8 +34,8 @@ export default class Home extends Component{
         return (
             <View>
                 <Text style={heading}>Login into this app</Text>
-                <TextInput style={input} />
-                <TextInput secureTextEntry="true" style={input}/>
+                <TextInput style={input} onChangeText={text => this.setState({username:text})} />
+                <TextInput secureTextEntry="true" onChangeText={text => this.setState({password:text})} style={input}/>
                  <Button  title='Login' onPress={() => this.LoginButtonPress()}/>
             </View>
         )
