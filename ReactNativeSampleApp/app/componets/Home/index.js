@@ -18,7 +18,15 @@ export default class Home extends Component{
 
     LoginButtonPress()
     {
-       
+       const {username,password} = this.state
+       if(username== 'admin' && password=='admin')
+       {
+            console.warn('Login is ok')
+       }  
+       else
+       {
+
+       }
     }
 
     render() {
