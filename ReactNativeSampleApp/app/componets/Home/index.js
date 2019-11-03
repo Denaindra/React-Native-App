@@ -6,6 +6,7 @@ import {
     Text,
     TextInput,
     Button,
+    Alert,
     View
 } from 'react-native'
 
@@ -21,11 +22,17 @@ export default class Home extends Component{
        const {username,password} = this.state
        if(username== 'admin' && password=='admin')
        {
-            console.warn('Login is ok')
+           this.props.navigation.navigate('dashboard')
        }  
        else
        {
-
+        Alert.alert(
+            'Login',
+            'Mmmm... username/password not match',
+            [
+              {text: 'OK', onPress: () => console.log('OK Pressed')},
+            ]
+          );
        }
     }
 
